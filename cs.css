@@ -16,21 +16,21 @@ top:50%;
 left:50%;
 transform:translate(-50%, -50%);
 box-shadow:0 1px 4px rgba(0,0,0,0.5);
-padding:15px;
+padding:20px;
 background-color:red;
 border-radius:5px;
 }
 .grid{
 display:grid;
-grid-template-columns:80px 80px 80px 80px;
-grid-template-rows:80px 80px 80px 80px;
+grid-template-columns:90px 90px 90px 90px;
+grid-template-rows:90px 90px 90px 90px;
 border:1px solid black;
 
 }
 .grid button{
 background-color:#cfcfcf;
 color:blue;
-font-size:24px;
+font-size:23px;
 font-weight:bold;
 border:1px solid black;
 outline:none;
@@ -57,8 +57,8 @@ cursor:pointer;
 }
 }
 .footer button:hover{
- color:yellow;
- background-color:blue;
+ color:black;
+ background-color:yellow;
 }
 .footer span{
 flex:1;
